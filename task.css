@@ -1,0 +1,93 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+ body,html{
+    overflow-x:hidden;
+    overflow-y: hidden;
+ }
+.mainbox{
+    width:100vw;
+    height:100vh;
+    background-color:white;
+}
+.navbar{
+    display:flex;
+    background-color:#F4F4F4;
+    justify-content:space-between;
+    align-items: center;
+    height:8vh;
+    width:95vw;
+    border-radius:8px;
+}
+.navcontainer{
+    display: flex;
+    justify-content:center;
+    margin-top:2vh;
+}
+.options{
+    display:flex;
+    margin-right:2vw;
+}
+.name{
+    margin-right:2vw;
+    font-weight:500;
+}
+.name:hover{
+   transform: scale(1.03);
+}
+.name a{
+    text-decoration: none;
+    color:black;
+    font-size:2.5vh;
+}
+button{
+    padding:3px 6px;
+    border-radius:8px;
+    background-color:#03045E;
+    color:white;
+}
+.Portfoliosign{
+      font-size:3.5vh;
+      margin-left: 4vw;
+      font-weight:600;
+}
+span{
+    color: #03045E;
+}
+.secondbox{
+    margin-top:6vh;
+    padding-left:6vw;   
+}
+.paracontent{
+    margin-top:2vh;
+}
+.thirdbox{
+    margin-top:5vh;
+    padding-left:6vw;
+    line-height:4vh;
+}
+ .boxcontainer1{
+    margin-top:2.5vh;
+    padding-left:6vw;
+    display:flex;
+    gap:4vw;
+}
+.insidebox{
+    display:flex;
+    flex-direction:column;
+    gap:2vh;
+    border:1px solid #8586AF;
+    border-radius:10px;
+    height:10vw;
+    width:20vw;
+    padding:2vh 2vw;
+    background-color: #DCDCE5;
+} 
+.boxcontainer2{
+    margin-top:2.5vh;
+    padding-left:6vw;
+    display:flex;
+    gap:4vw;
+}
